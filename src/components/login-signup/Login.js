@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styling/login.css';
+import '../../styling/login.css';
 
 export default function Login({ onSubmit, onChange, values }) {
   return (

@@ -4,8 +4,7 @@ import { Provider } from 'react-redux';
 import { Route } from 'react-router-dom';
 
 import UsersListContainer from './components/userslist-homepage/UsersListContainer'
-import TicketDetailsContainer from './components/TicketDetailsContainer'
-import TicketsContainer from './components/TicketsContainer'
+import PostsContainer from './components/posts/PostsContainer'
 import HomeContainer from './components/login-signup/HomeContainer'
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
         <div>
           <Route path="/" exact component={UsersListContainer} />
           <Route path="/login" exact component={HomeContainer} />
-          <Route path="/event/:id/posts" component={TicketsContainer} />
+          <Route path="/user/:id/posts" component={PostsContainer} />
 
           
         </div>
