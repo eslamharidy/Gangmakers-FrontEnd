@@ -1,0 +1,87 @@
+html,
+body {
+  margin: 0;
+  height: 100% !important;
+}
+
+#root {
+  height: 100% !important;
+}
+
+.app-wrapper {
+  height: 100% !important;
+}
+
+.col-right {
+  background-color: #f0f465;
+  position: relative;
+}
+
+.col-left {
+  /* background-color: #f71735; */
+  background-color: #2db2ff;
+  position: relative;
+}
+
+.form {
+  margin: 0 auto;
+}
+
+.title-home {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: 'lato';
+  width: 102%;
+  font-size: 35px;
+}
+
+.block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+}
+
+.home-wrapper .btn-home {
+  background: #eb4d4d;
+  border-color: transparent;
+  color: white;
+  margin: 0 auto;
+  display: block;
+  margin-top: 38px;
+  padding: 7px 29px;
+}
+
+.home-wrapper .btn-home:hover {
+  color: #eb4d4d;
+  background: white;
+  text-decoration: none;
+}
+
+.game-room h1 {
+  text-align: center;
+}
+
+.game-room .btn-join {
+  margin: 0 auto;
+  display: block;
+  margin-top: 100px;
+  padding: 15px 45px;
+  background: #eb4d4d;
+  border-color: transparent;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.game-room .btn-join:hover {
+  color: #fff;
+  background-color: #eb4d4d;
+  border: 1px solid white;
+}
+
+.users-join {
+  text-transform: capitalize;
+  font-family: 'lato';
+}
