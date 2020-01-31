@@ -16,10 +16,10 @@ dit project is volledig op één dag uitgevoerd, het kan veel beter zijn door me
 
 #### 👀👇 Click links to view some samples in this project 👇👀
 
-- **[React](db.js)**  
-- **[bootstrap](index.js)**  
-- **[superagent](auth/router.js)**  
-- **[Redux](index.js)**  
+- **[React](src/app.js)**  
+- **[bootstrap](src/app.js)**  
+- **[superagent](src/actions/posts.js)**  
+- **[Redux](src/store.js)**  
 
 
 
@@ -27,9 +27,10 @@ dit project is volledig op één dag uitgevoerd, het kan veel beter zijn door me
 
 #### 👀👇 Click links to view some samples in this project 👇👀
 
-- **[Login and sign as new user](https://github.com/eslamharidy/Gangmakers-backend/tree/master/auth)**  
-- **[User model and routers](https://github.com/eslamharidy/Gangmakers-backend/tree/master/user)**  
-- **[Post model and routers](https://github.com/eslamharidy/Gangmakers-backend/tree/master/post)**  
+- **[Login en sign als nieuwe user](https://github.com/eslamharidy/Gangmakers-FrontEnd/tree/master/src/components/login-signup)**  
+- **[Een gebruikers List met een simpel profiel ](https://github.com/eslamharidy/Gangmakers-FrontEnd/tree/master/src/components/userslist-homepage)**  
+
+- **[Posts van een gebruiker ](https://github.com/eslamharidy/Gangmakers-FrontEnd/tree/master/src/components/posts)**  
 
 
 
