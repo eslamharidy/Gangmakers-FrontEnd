@@ -48,7 +48,7 @@ class PostsContainer extends React.Component {
         <div>
           <p>
             {" "}
-            Log in or Sign up to add new Ticket!
+            Log in or Sign up to add new Post!
             <Link to={`/login`}>
               <Button
                 style={{ margin: "3px" }}

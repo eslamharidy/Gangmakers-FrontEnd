@@ -15,6 +15,7 @@ class UsersListContainer extends React.Component {
     if (this.props.user) {
       return (
         <Container>
+
           <Container>
             <img
               style={{ width: "100%", position: "center" }}
@@ -22,6 +23,20 @@ class UsersListContainer extends React.Component {
               alt={"homepage"}
             />
           </Container>
+          <p>
+            {" "}
+            Log in or Sign up!
+            <Link to={`/login`}>
+              <Button
+                style={{ margin: "50px" }}
+                variant="primary"
+                type="submit"
+                value="Submit"
+              >
+                Login/Signup
+              </Button>
+            </Link>
+          </p>
 
           <UsersList users={this.props.users} />
         </Container>
